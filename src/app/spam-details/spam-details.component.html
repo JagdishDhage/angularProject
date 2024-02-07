@@ -1,0 +1,9 @@
+
+  <div *ngIf="spamIssues.length > 0" class="container mt-5 d-flex flex-column align-items-center">
+    <img [src]="spamIssues[currentIndex].imageurl" alt="Issue Image">
+    <p>{{ spamIssues[currentIndex].description }}</p>
+  
+    <div class="btn-group mt-3" role="group" aria-label="Issue Navigation">
+      <button type="button" class="btn btn-secondary" (click)="showPreviousIssue()">Previous</button>
+      <button type="button" class="btn btn-secondary ms-3" (click)="showNextIssue()">Next</button>
+    </div>

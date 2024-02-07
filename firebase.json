@@ -1,0 +1,11 @@
+{
+  "hosting": [
+    {
+      "target": "thevoice-4e7e8",
+      "source": ".",
+      "frameworksBackend": {
+        "region": "asia-east1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "thevoice-1b756": {
+      "hosting": {
+        "thevoice-4e7e8": [
+          "thevoice-1b756"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "thevoice-1b756"
+  }
+}

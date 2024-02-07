@@ -1,0 +1,57 @@
+<section id="unsolve" class="mt-5">
+  <h1>unsolve</h1>
+  <div class="container row">
+    <div *ngFor="let issue of issues" class="card ms-3" style="width: 18rem;">
+      <img [src]="issue.imageurl" class="card-img-top" alt="Issue Image">
+      <div class="card-body">
+        <p class="card-text">{{ issue.description }}</p>
+      </div>
+    </div>
+    <a href="/details-unsolve" class="btn btn-danger mt-3 p-2">View Details unsolve</a>
+  </div>
+</section>
+
+<br>
+<hr>
+
+<section id="solveIssues" class="mt-5">
+  <h1>solveIssues</h1>
+  <div class="container row">
+    <div *ngFor="let issue of solveIssues" class="card ms-5" style="width: 18rem;">
+      <img [src]="issue.imageurl" class="card-img-top" alt="Issue Image">
+      <div class="card-body">
+        <p class="card-text">{{ issue.description }}</p>
+      </div>
+    </div>
+    <a href="/details-solve" class="btn btn-success mt-5 p-2">View Details solveIssues</a>
+  </div>
+</section>
+
+<br>
+<hr>
+
+<section id="spamIssues" class="mt-5">
+  <h1>spamIssues</h1>
+  <div class="container row">
+    <div *ngFor="let issue of spamIssues" class="card ms-5" style="width: 18rem;">
+      <img [src]="issue.imageurl" class="card-img-top" alt="Issue Image">
+      <div class="card-body">
+        <p class="card-text">{{ issue.description }}</p>
+      </div>
+    </div>
+    <a href="/Spam-details" class="btn btn-primary mt-5">View Details spamIssues</a>
+  </div>
+</section>
+<h1>Id</h1>
+<div class="container mt-5">
+  <!-- Display issue details fetched by ID -->
+  <div *ngIf="issuesById.length > 0">
+    <div class="card">
+      <img [src]="issuesById[0].imageurl" class="card-img-top" alt="Issue Image">
+      <div class="card-body">
+        <p class="card-text">{{ issuesById[0].description }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+

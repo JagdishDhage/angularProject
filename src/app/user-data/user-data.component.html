@@ -1,0 +1,13 @@
+<!-- user-data.component.html -->
+
+<div class="user-data-container">
+  <!-- Your user data representation here -->
+  <!-- Example: Display a list of users with their upload information -->
+  <ul class="user-data-list" *ngFor="let user of users">
+    <li class="user-data-item">
+      <span class="user-data-title">Name:</span> {{ user.name }} -
+      <span class="user-data-title">Uploaded on:</span> {{ user.uploadDate }} at {{ user.uploadTime }} -
+      <span class="user-data-title">Location:</span> {{ user.location }}
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,22 @@
+/* user-data.component.css */
+
+.user-data-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+  }
+  
+  .user-data-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-data-item {
+    border-bottom: 1px solid #ddd;
+    padding: 8px 0;
+  }
+  
+  .user-data-title {
+    font-weight: bold;
+  }
+  

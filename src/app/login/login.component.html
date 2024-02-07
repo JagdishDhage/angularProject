@@ -1,0 +1,14 @@
+<div class="b">
+  <div class="first">
+    <img src="assets/Logo.jpg" alt="Logo">
+    <form (ngSubmit)="login()" action="">
+      <input type="text" class="id" id="inputId" name="inputId" placeholder="User-Id" [(ngModel)]="id" required>
+      <br>
+      <input type="password" class="pass" id="inputPassword" name="inputPassword" placeholder="Password" [(ngModel)]="password" required>
+      <br>
+      <button type="submit" class="btn btn-outline-primary">Log-In</button>
+    </form>
+  </div>
+</div>
+
+  

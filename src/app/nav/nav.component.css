@@ -1,0 +1,15 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+.navbar-nav .nav-link  {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 30px;
+    position: relative;
+}
+
+.brand a {
+    margin-right: 20px;
+    margin-left: 120px;
+    padding-top: 30px;
+    font-size: 2.0rem;
+    
+}

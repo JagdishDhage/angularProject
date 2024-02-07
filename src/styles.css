@@ -1,0 +1,23 @@
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+.cards{
+    background-color: gray;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: calc(25% - 10px); 
+    margin-bottom: 20px; 
+  
+  }
+  .card-body{
+    display: flex;
+  }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
